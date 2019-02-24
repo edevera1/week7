@@ -4,6 +4,7 @@ body {
   font-family: Nunito, Josefin, sans-serif;
   background-image: url('../images/back.jpg');
 
+
 }
 
 img{
@@ -14,6 +15,11 @@ img{
 div{
   align: 0 auto;
   vertical-align: middle;
+}
+
+main{
+  margin: 25px;
+  border: 5px;
 }
 
 
@@ -48,7 +54,7 @@ div{
 }
 
 .gallery a{
-  width: 30%;
+  width: 45%;
 }
 
 .gallery{
@@ -59,7 +65,9 @@ div{
 	align-items: baseline;
 }
 
-
+footer{
+  text-align: center;
+}
 
 /*navigation bar, sourced from w3schools.com/css/css_navbar.asp with modifications*/
 
@@ -126,8 +134,7 @@ a.skip-main:focus, a.skip-main:active {
 
 /*responsive*/
 @media screen and (max-width:700px){
-  body{
-    background:red;}
+  
   .gallery{
     flex-direction: column;
   }
